@@ -13,3 +13,13 @@ This file contains the solution to weekly task 02. In this tak, we were told to 
 
 ------------
 
+FILE: secondstring.py
+
+
+Solution to week 03
+
+This file contains the solution to weekly task 03. In this tak, we need to write a program that asks a user to input a string and outputs every second letter in reverse order. 
+
+
+
+
