@@ -1,19 +1,23 @@
 # The solution to weekly task 03: "Write a program that asks a user to input a string and outputs every second letter in reverse order"
 # Author: Rita Ortega
 
-
+# It reads the sentence given
 inputSentece = input('Please enter a sentence: ')
-splitted_inputSentence = inputSentece[1::2]
-finalOutput = splitted_inputSentence[::-1]
 
-print(finalOutput)
+# It selects every second letter of the sentence given
+everySecondLetter = inputSentece[1::2]
 
+ # It reverses the previous string (everySecondLetter)
+reversedOutput = everySecondLetter[::-1]
+
+# It prints out the result of the reversedOutput variable
+print(reversedOutput)
 
 
 """
 
 REFERENCES:
-https://stackoverflow.com/questions/46503865/getting-every-nth-character-in-the-string-in-python
+
 https://codippa.com/how-to-print-characters-at-even-position-in-string-in-python/
 https://www.w3schools.com/python/python_howto_reverse_string.asp
 
