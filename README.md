@@ -44,3 +44,17 @@ Solution to week 04
 REFERENCES:
 - I got the idea about how to make the collatz program: https://medium.com/the-art-of-python/the-collatz-sequence-in-python-eb7e1f1b4f9e
 - How to use while loops: https://www.w3schools.com/python/python_while_loops.asp 
+
+
+-----------
+
+## FILE: weekday.py
+
+
+Solution to week 05
+
+This file contains the solution to weekly task 05. In this task, we needed to write a program that outputs whether or not today is a weekday.
+
+REFERENCES:
+
+
