@@ -56,5 +56,11 @@ Solution to week 05
 This file contains the solution to weekly task 05. In this task, we needed to write a program that outputs whether or not today is a weekday.
 
 REFERENCES:
+- How to obtain what day it is and convert it into the corresponding day of the week: https://www.delftstack.com/howto/python/python-datetime-day-of-week/#:~:text=of%20the%20day.-,Use%20the%20weekday()%20Method%20to%20Get%20the%20Name%20of,0%20and%20Sunday%20is%206
+- I got the idea about how to output whether or not today is a weekday using the if statement with or operator: https://pythonexamples.org/python-if-or/
+
+
+-----------
+
 
 
