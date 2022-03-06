@@ -62,5 +62,13 @@ REFERENCES:
 
 -----------
 
+## FILE: squareroot.py
 
+
+Solution to week 06
+
+This file contains the solution to weekly task 06. In this task, 
+
+REFERENCES:
+- 
 
