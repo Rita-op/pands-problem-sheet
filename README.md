@@ -67,8 +67,34 @@ REFERENCES:
 
 Solution to week 06
 
-This file contains the solution to weekly task 06. In this task, 
+This file contains the solution to weekly task 06. In this task, we needed to write a program that takes a positive floating-point number as input and outputs an approximation of its square root. In order to do that, we could not use any built-in function but we had to create our own function.
+
+As we were advised, I used Newton's Method for estimating square roots to develop my solution. The equation used in the solution, since we needed to calculate the square root of a number, was the following: 
+
+             x1 = 0.5 *(x0 + (n/x0))
 
 REFERENCES:
-- 
 
+The following are the websites used to get information about Newton's Method for estimating square roots and how to apply it:
+- https://www2.math.upenn.edu/~kazdan/202F09/sqrt.pdf
+- https://math.mit.edu/~stevenj/18.335/newton-sqrt.pdf
+
+I used the websites shown below to develop my solution to obtain the square root of a number using the Newton's Method:
+- https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
+- https://www.coursehero.com/tutors-problems/Python-Programming/19731761-Package-Newtons-method-for-approximating-square-roots-Case-Study-Ap/
+- https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
+
+How to print the result as a number with one decimal: 
+- https://www.w3schools.com/python/python_string_formatting.asp 
+
+
+-----------
+
+## FILE: es.py
+
+
+Solution to week 07
+
+This file contains the solution to weekly task 07. In this task, we were told to write a program that reads in a text file and outputs the number of e's it contains.
+
+REFERENCES:
