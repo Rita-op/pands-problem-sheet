@@ -1,4 +1,5 @@
-# The solution to weekly task 04: "Write a program that asks the user to input any positive integer and outputs the successive values of the required calculation"
+# The solution to weekly task 04: "Write a program that asks the user to input any positive integer and 
+# outputs the successive values of the required calculation"
 # Author: Rita Ortega
 
 # It creates an empty list
@@ -16,8 +17,9 @@ while intNumber != 1:
       intNumber = (3 * intNumber) + 1 
     values.append(intNumber) 
 
-# It prints out the created list
-print(values)
+# It prints out the created list without brackets and separate it by spaces
+print(*values, sep = " ") 
+
 
 
 

@@ -1,4 +1,5 @@
-# The solution to weekly task 06: "Write a program that takes a positive floating-point number as input and outputs an approximation of its square root"
+# The solution to weekly task 06: "Write a program that takes a positive floating-point number 
+# as input and outputs an approximation of its square root"
 # Author: Rita Ortega
 
 # It reads the number given and converts it into a float
@@ -10,7 +11,8 @@ def sqrt (n):
   x0 = 1
   x1 = x0
 
-# It creates a while loop in order to apply Newton's Method for estimating square roots that stops when the precision of the estimation is less or equal than the specified (0.00001)
+# It creates a while loop in order to apply Newton's Method for estimating square roots that stops when 
+# the precision of the estimation is less or equal than the specified (0.00001)
   while abs(n-x1**2) > precision: 
     x0 = x1
     x1 = 0.5 * (x0 + n/x0) 

@@ -44,6 +44,7 @@ Solution to week 04
 REFERENCES:
 - I got the idea about how to make the collatz program: https://medium.com/the-art-of-python/the-collatz-sequence-in-python-eb7e1f1b4f9e
 - How to use while loops: https://www.w3schools.com/python/python_while_loops.asp 
+- How to print a list without brackets and separate it by spaces: https://www.adamsmith.haus/python/answers/how-to-print-a-list-without-brackets-in-python#:~:text=Use%20*%20to%20print%20a%20list,set%20sep%20to%20%22%2C%20%22%20 
 
 
 -----------
