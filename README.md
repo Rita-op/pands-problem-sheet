@@ -96,6 +96,36 @@ How to print the result as a number with one decimal:
 
 Solution to week 07
 
-This file contains the solution to weekly task 07. In this task, we were told to write a program that reads in a text file and outputs the number of e's it contains.
+
+This file contains the solution to weekly task 07. In this task, we were told to write a program that reads in a text file and outputs the number of e's it contains. I would like to point out that I assumed that we are asked to count all the e’s regardless of whether they are in uppercase or lowercase. For that reason, my solution to this weekly task counts all the e's a given document contains (uppercase and lowercase).
+
+Lastly, I let you know that I have included a text file called "moby-dick.txt" that you can use to test the code.
 
 REFERENCES:
+
+I used the websites shown below to develop my solution to take the filename from an argument on the command line:
+- https://stackoverflow.com/questions/7033987/get-a-file-from-cli-input
+- https://docs.python.org/3/library/fileinput.html
+
+Reading the following websites, I got the idea about how to read in a text file and outputs the number of e's it contains:
+- https://www.codespeedy.com/count-occurrence-of-character-in-file-using-python/
+- https://www.sanfoundry.com/python-program-read-file-counts-number/
+
+I created my test text file using this website:
+- https://archive.org/stream/mobydickorwhale01melvuoft/mobydickorwhale01melvuoft_djvu.txt 
+
+
+-----------
+
+## FILE: plottask.py
+
+
+Solution to week 08
+
+This file contains the solution to weekly task 08. In this task, we were told to wite a program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+
+REFERENCES:
+
+
+
+
