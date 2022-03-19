@@ -9,7 +9,7 @@
 ## FILE : bmi.py 
 
 
-Solution to week 02
+The solution to week 02
 
 This file contains the solution to weekly task 02. In this task, we were told to calculate someone's Body Mass Index (BMI).
 
@@ -23,7 +23,7 @@ REFERENCES:
 ## FILE: secondstring.py
 
 
-Solution to week 03
+The solution to week 03
 
 This file contains the solution to weekly task 03. In this task, we needed to write a program that asks a user to input a string and outputs every second letter in reverse order. 
 
@@ -37,7 +37,7 @@ REFERENCES:
 ## FILE: collatz.py
 
 
-Solution to week 04
+The solution to week 04
 
  This file contains the solution to weekly task 04. In this task, we were told to write a program that asks the user to input any positive integer number and outputs the successive values of a required calculation. For the case that concerns us, at each step we have to calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. The program has to end if the current value is one.
 
@@ -52,7 +52,7 @@ REFERENCES:
 ## FILE: weekday.py
 
 
-Solution to week 05
+The solution to week 05
 
 This file contains the solution to weekly task 05. In this task, we needed to write a program that outputs whether or not today is a weekday.
 
@@ -66,7 +66,7 @@ REFERENCES:
 ## FILE: squareroot.py
 
 
-Solution to week 06
+The solution to week 06
 
 This file contains the solution to weekly task 06. In this task, we needed to write a program that takes a positive floating-point number as input and outputs an approximation of its square root. In order to do that, we could not use any built-in function but we had to create our own function.
 
@@ -94,7 +94,7 @@ How to print the result as a number with one decimal:
 ## FILE: es.py
 
 
-Solution to week 07
+The solution to week 07
 
 
 This file contains the solution to weekly task 07. In this task, we were told to write a program that reads in a text file and outputs the number of e's it contains. I would like to point out that I assumed that we are asked to count all the e’s regardless of whether they are in uppercase or lowercase. For that reason, my solution to this weekly task counts all the e's a given document contains (uppercase and lowercase).
@@ -120,11 +120,29 @@ I created my test text file using this website:
 ## FILE: plottask.py
 
 
-Solution to week 08
+The solution to week 08
 
-This file contains the solution to weekly task 08. In this task, we were told to wite a program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+This file contains the solution to weekly task 08. In this task, we were told to write a program that displays a plot of the functions f(x)=x, g(x)=x^2 and h(x)=x^3 in the range [0, 4] on the one set of axes.
 
 REFERENCES:
+
+How to get a range of floating-point numbers between [0,4] to define the x variable: 
+- https://pynative.com/python-range-for-float-numbers/
+
+I used the websites shown below to make the plot looks nicer:
+- https://www.oreilly.com/library/view/python-data-science/9781491912126/ch04.html
+- https://www.includehelp.com/python/bold-text-label-in-plot.aspx
+- https://www.geeksforgeeks.org/custom-legends-with-matplotlib/
+- https://www.w3schools.com/python/matplotlib_grid.asp
+- https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+
+How to use matplotlib.pyplot module: 
+- https://www.w3schools.com/python/matplotlib_pyplot.asp
+
+
+-----------
+
+
 
 
 
