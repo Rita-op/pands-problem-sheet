@@ -2,16 +2,16 @@
 # Author: Rita Ortega
 
 # It reads the sentence given
-inputSentece = input('Please enter a sentence: ')
+input_sentece = input('Please enter a sentence: ')
 
 # It selects every second letter of the sentence given
-everySecondLetter = inputSentece[1::2]
+every_second_letter = input_sentece[1::2]
 
  # It reverses the previous string (everySecondLetter)
-reversedOutput = everySecondLetter[::-1]
+reversed_output = every_second_letter[::-1]
 
 # It prints out the result of the reversedOutput variable
-print(reversedOutput)
+print(reversed_output)
 
 
 """

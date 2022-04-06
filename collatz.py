@@ -6,16 +6,16 @@
 values = []
 
 # It reads the number given and adds it to the list 
-intNumber = int(input('Please enter a positive integer:'))
-values.append(intNumber) 
+int_number = int(input('Please enter a positive integer:'))
+values.append(int_number) 
 
 # It creates a while loop that performs the calculations required and adds the values to the list until the current value is one
-while intNumber != 1:
-    if intNumber % 2 == 0:
-      intNumber = intNumber // 2  
+while int_number != 1:
+    if int_number % 2 == 0:
+      int_number = int_number // 2  
     else:
-      intNumber = (3 * intNumber) + 1 
-    values.append(intNumber) 
+      int_number = (3 * int_number) + 1 
+    values.append(int_number) 
 
 # It prints out the created list without brackets and separate it by spaces
 print(*values, sep = " ") 

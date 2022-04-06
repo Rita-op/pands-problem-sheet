@@ -3,7 +3,7 @@
 
 # It imports the fileinput module that allows us to read the file that is provided as an argument on the command line 
 import fileinput
-countLetter = 0
+count_letter = 0
 
 # It is used a for loop that reads through each line of the file given on the command line
 for line in fileinput.input(mode = "r"):
@@ -13,10 +13,10 @@ for line in fileinput.input(mode = "r"):
 
 # This if statement counts the number of e's the given document contains (uppercase and lowercase)
       if (letter == "e" or letter == "E"):
-       countLetter = countLetter + 1 
+       count_letter = count_letter + 1 
 
 # It prints out the number of e's the given document contains
-print (countLetter)
+print (count_letter)
 
 
 

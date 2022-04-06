@@ -4,17 +4,17 @@
 # Imports the library calendar to obtain what day it is today
 from datetime import date
 import calendar
-currentDate = date.today()
+current_date = date.today()
 
 # It gets the name of the day by using the day_name array from the calendar library taking into account what day it is today (currentDate)
-dayName = calendar.day_name[currentDate.weekday()]
+day_name = calendar.day_name[current_date.weekday()]
 
 # It prints out the message "Yes, unfortunately is a weekday" in case today is a weekday
-if (dayName == "Monday"
-    or dayName == "Tuesday"
-    or dayName == "Wednesday"
-    or dayName == "Thursday"
-    or dayName == "Friday"):
+if (day_name == "Monday"
+    or day_name == "Tuesday"
+    or day_name == "Wednesday"
+    or day_name == "Thursday"
+    or day_name == "Friday"):
 
  print("Yes, unfortunately today is a weekday.")
 
